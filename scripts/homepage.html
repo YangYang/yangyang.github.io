@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{name}} · {{name_zh}} | Inner Mongolia University</title>
+  <meta name="description" content="Yang Yang (杨洋), researcher at Inner Mongolia University. Research, publications, and academic experience in reliable cross-modal learning and multimedia intelligence.">
+  <meta name="theme-color" content="#043361">
+  <meta property="og:title" content="Yang Yang · 杨洋 | Inner Mongolia University">
+  <meta property="og:description" content="Reliable cross-modal learning, multimodal retrieval, and multimedia intelligence.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yangyang.ai/">
+  <link rel="canonical" href="https://yangyang.ai/">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/minimal-light.css">
+  <link rel="stylesheet" href="/assets/css/homepage.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrapper">
+    <header class="profile">
+      <a class="image avatar" href="#about" aria-label="About Yang Yang"><img src="/assets/img/yang-yang.jpeg" alt="Yang Yang" width="160" height="160"></a>
+      <h1>{{name}} <span lang="zh-CN">{{name_zh}}</span></h1>
+      <p class="position">{{role}}</p>
+      <p class="affiliation"><a href="{{faculty_url}}">{{department}}<br>{{university}}</a></p>
+      <a class="email" href="mailto:{{email}}">{{email}}</a>
+      <div class="profile-links">{{social}}</div>
+      <nav class="section-nav" aria-label="On this page">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">Experience &amp; Education</a>
+        <a href="#awards">Honors &amp; Awards</a>
+        <a href="#service">Academic Service</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="about">
+        <h2>About Me</h2>
+        {{about}}
+        <h3 class="subheading">Research Interests</h3>
+        <ul class="research-list">{{research}}</ul>
+      </section>
+      <section id="publications" class="publications">
+        <div class="section-heading"><h2>Publications</h2><span class="scholar-note">{{scholar_note}}</span></div>
+        <p class="publication-note">† Equal contribution.</p>
+        {{publications}}
+      </section>
+      <section id="cv">
+        <h2>Experience &amp; Education</h2>
+        <ul class="cv-list">
+          <li><span class="entry-date">Present</span><div><h3>Researcher · Ph.D. Supervisor</h3><p>College of Computer Science, Inner Mongolia University</p></div></li>
+          {{education}}
+        </ul>
+        <h3 class="subheading">Research Funding</h3>
+        <ul class="cv-list">{{funding}}</ul>
+      </section>
+      <section id="awards">
+        <h2>Honors &amp; Awards</h2>
+        <ul class="awards-list">{{awards}}</ul>
+      </section>
+      <section id="service">
+        <h2>Academic Service</h2>
+        <ul class="service-list">{{service}}</ul>
+      </section>
+      <footer class="site-footer">
+        <span>© 2026 {{name}} · Updated {{updated}}</span>
+        <span>Based on <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a>.</span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

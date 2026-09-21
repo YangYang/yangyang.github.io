@@ -1,0 +1,43 @@
+{
+  "name": "Yang Yang",
+  "name_zh": "杨洋",
+  "role": "Researcher · Ph.D. Supervisor",
+  "department": "College of Computer Science",
+  "university": "Inner Mongolia University",
+  "email": "yang.yang@imu.edu.cn",
+  "faculty_url": "https://ccs.imu.edu.cn/info/1030/2651.htm",
+  "github_url": "https://github.com/YangYang",
+  "scholar_url": "",
+  "updated": "September 2026",
+  "about": [
+    "I am a researcher and Ph.D. supervisor at the College of Computer Science, Inner Mongolia University. I received my Ph.D. in Computer Science and Technology from Inner Mongolia University in December 2024, advised by Prof. Huaiwen Zhang.",
+    "My research focuses on reliable cross-modal semantic learning: understanding and aligning information across text, images, videos, and human motion. I work on multimodal retrieval, learning with imperfect supervision, and generative retrieval, with recent interests in multimodal recommendation and video fact-checking."
+  ],
+  "research": [
+    ["Multimodal retrieval", "Hierarchical and compositional semantic alignment; text–motion retrieval."],
+    ["Reliable learning", "Robust supervision calibration, noisy correspondence, and active learning."],
+    ["Generative multimodal intelligence", "Generative retrieval, recommendation, and video fact-checking."]
+  ],
+  "education": [
+    {"date": "2021–2024", "title": "Ph.D. in Computer Science and Technology", "detail": "Inner Mongolia University · Advisor: Prof. Huaiwen Zhang"},
+    {"date": "2019–2021", "title": "Graduate study in Software Engineering", "detail": "Inner Mongolia University · Transferred to the Ph.D. program · Advisor: Prof. Xueliang Zhang"},
+    {"date": "2015–2019", "title": "Bachelor’s degree in E-commerce", "detail": "Inner Mongolia University"}
+  ],
+  "funding": [
+    {"date": "2026–2028", "title": "NSFC Young Scientists Fund (Category C)", "detail": "Principal investigator"},
+    {"date": "2026–2028", "title": "Inner Mongolia Science and Technology Major Project", "detail": "Subproject lead"}
+  ],
+  "awards": [
+    ["2025", "Doctoral Dissertation Award, ACM Hohhot Chapter"],
+    ["2025", "Second Prize, Undergraduate Teaching Achievement Award, Inner Mongolia University"],
+    ["2024", "CAST Young Elite Scientists Sponsorship Program — Doctoral Student Track (supported by CCF)"],
+    ["2024", "President’s Scholarship, Inner Mongolia University"],
+    ["", "National Scholarship for Doctoral Students"],
+    ["", "First Prize, 6th Curriculum Ideological and Political Education Teaching Competition, Inner Mongolia University"]
+  ],
+  "service": [
+    ["Professional membership", "Member, CSIG Technical Committee on Multimedia."],
+    ["Conference reviewing", "AAAI, ACM Multimedia, SIGIR, and KDD."],
+    ["Journal reviewing", "IEEE Transactions on Multimedia and Knowledge-Based Systems."]
+  ]
+}
