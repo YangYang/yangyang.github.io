@@ -39,7 +39,7 @@ for year in sorted({p['year'] for p in papers}, reverse=True):
 social = [link('mailto:'+profile['email'], 'Email'), link(profile['github_url'], 'GitHub'), link(profile['faculty_url'], 'Faculty profile')]
 if profile['scholar_url']:
     social.insert(0, link(profile['scholar_url'], 'Google Scholar'))
-scholar_note = link(profile['scholar_url'], 'Full list on Google Scholar') if profile['scholar_url'] else ''
+scholar_note = link(profile['scholar_url'], 'View Google Scholar') if profile['scholar_url'] else ''
 values = {
     'name': esc(profile['name']), 'name_zh': esc(profile['name_zh']),
     'role': esc(profile['role']), 'department': esc(profile['department']),
